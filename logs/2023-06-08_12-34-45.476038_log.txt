@@ -1,0 +1,50 @@
+
+==============================
+
+2023-06-08 12:34:45.502240 - 
+
+
+
+
+Starting the algorithm with the following parameters: 
+     np=<module 'numpy' from 'E:\\conda\\envs\\tf\\lib\\site-packages\\numpy\\__init__.py'>
+     tf=<module 'tensorflow' from 'E:\\conda\\envs\\tf\\lib\\site-packages\\tensorflow\\__init__.py'>
+     os=<module 'os' from 'E:\\conda\\envs\\tf\\lib\\os.py'>
+     ProcessingType=<enum 'ProcessingType'>
+     log_message=<function log_message at 0x00000222FE1FE280>
+     check_file_existence=<function check_file_existence at 0x00000222FE1FE550>
+     pdb=<module 'pdb' from 'E:\\conda\\envs\\tf\\lib\\pdb.py'>
+     sys=<module 'sys' (built-in)>
+     create_dir=<function create_dir at 0x00000222FE1FE4C0>
+     operating_system=win32
+     tf_config=gpu_options {
+  per_process_gpu_memory_fraction: 0.5
+}
+
+     temporal_size=15
+     temporal_offsets=[-15 -14 -13 -12 -11 -10  -9  -8  -7  -6  -5  -4  -3  -2  -1   0   1   2
+   3   4   5   6   7   8   9  10  11  12  13  14  15]
+     detection_threshold=0.5
+     database_name=ped2
+     output_folder_base=/media/lili/SSD2/datasets/abnormal_event/ped2/output_yolo_0.50
+     input_folder_base=/UCSD_Anomaly_Dataset/UCSD_Anomaly_Dataset.v1p2/UCSDped2
+     samples_folder_name=images_15_0.50
+     samples_folder_name_context=images_with_context_15_0.50
+     optical_flow_folder_name=optical_flow_15_0.50
+     meta_folder_name=meta_15_0.50
+     imagenet_logits_folder_name=imagenet_logits_before_softmax
+     set_temporal_size=<function set_temporal_size at 0x00000222E409B820>
+     block_scale=3
+     logs_folder=logs
+     num_samples_for_visualization=500
+     CHECKPOINTS_PREFIX=conv3d_4_tasks_0.5_mae_wide_deep_resnet_3_obj_relu_resnet
+     CHECKPOINTS_BASE=/media/lili/SSD2/datasets/abnormal_event/ped2/output_yolo_0.50\ped2\checkpoints\conv3d_4_tasks_0.5_mae_wide_deep_resnet_3_obj_relu_resnet
+     allowed_video_extensions=['avi', 'mp4']
+     allowed_image_extensions=['jpg', 'png', 'jpeg']
+     RESTORE_FROM_HISTORY=True
+     history_filename=history_ped2_%s.txt
+     log_parameters=<function log_parameters at 0x00000222FE1FEE50>
+
+==============================
+
+2023-06-08 12:34:45.504241 - Function extract_objects has started.
